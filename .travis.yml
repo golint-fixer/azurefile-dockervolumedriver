@@ -3,7 +3,7 @@ language: go
 install:
 - export GO15VENDOREXPERIMENT=1
 before_script:
-- go get -u github.com/golang/lint/golint
+- go get -u golang.org/x/lint/golint
 - go get -u github.com/ahmetalpbalkan/govvv
 go: 1.7
 script:
